@@ -1,13 +1,14 @@
 body{
     font-family: "Trebuchet MS";
+    background-color: whitesmoke;
 }
 
 .container{
-    background: yellow;
+    position: relative;
     width: 50%;
     height: 50%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .navbar{
@@ -38,4 +39,25 @@ body{
 }
 .navbar li a:hover{
     color: darkgrey;
+}
+
+.footer{
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    border-top: 1px solid black;
+    font-size: 15px;
+}
+
+.footer p{
+    float: right;
+}
+
+.footer img{
+    height: 30px;
+    padding-top: 5px;
+}
+
+.footer a:hover{
+    opacity: 0.7;
 }
