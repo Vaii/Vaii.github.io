@@ -1,5 +1,41 @@
+body{
+    font-family: "Trebuchet MS";
+}
+
 .container{
     background: yellow;
     width: 50%;
     height: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.navbar{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: underline;
+    padding: 14px 16px;
+}
+
+.navbar a{
+    display: inline-block;
+}
+.navbar li a:hover{
+    color: darkgrey;
 }
