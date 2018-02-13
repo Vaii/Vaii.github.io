@@ -6,7 +6,6 @@ body{
 .container{
     position: relative;
     width: 50%;
-    height: 50%;
     margin: auto;
     margin-top: 5%;
 }
@@ -42,7 +41,6 @@ body{
 
 .footer{
     position: absolute;
-    bottom: 1px;
     width: 100%;
     border-top: 1px solid black;
     font-size: 15px;

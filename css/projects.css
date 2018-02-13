@@ -1,13 +1,13 @@
 .placeholder{
     background-color: white;
-    width: 300px;
-    height: 150px;
-    margin: 5% 8%;
-    float: left;
+    width: 35%;
+    height: 20%;
+    margin: 7.5% 10% 5% ;
     border: 1px solid black;
     box-shadow: 5px 10px #888888;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    display: inline-block;
 }
 
 .placeholder:hover{
@@ -22,14 +22,13 @@
 
 .placeholder2{
     background-color: white;
-    width: 300px;
-    height: 150px;
-    margin: 5% 8%;
-    float: right;
+    width: 35%;
+    height: 20%;
     border: 1px solid black;
     box-shadow: 5px 10px #888888;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    display: inline-block;
 }
 
 .placeholder2 img{
